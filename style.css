@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.carousel-item, .d-block {
+    height: 500px;
+    object-fit: cover;
+}
+
+.sticky-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    padding-top: -35px;
+    border: solid;
+    border-radius: 70px;
+}
+
