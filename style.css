@@ -2,17 +2,18 @@
     box-sizing: border-box;
 }
 
-.carousel-item, .d-block {
-    height: 500px;
+.custom-carousel {
+    height: 350px;
     object-fit: cover;
 }
 
-.sticky-btn {
-    display: flex;
-    flex-direction: row-reverse;
-    position: sticky;
-    padding-top: -35px;
-    border: solid;
-    border-radius: 70px;
+.custom-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px; 
+    padding: 0;
 }
 
